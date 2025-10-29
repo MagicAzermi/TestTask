@@ -11,7 +11,7 @@ namespace ComposeDecompose
             if (string.IsNullOrEmpty(inputString)) return inputString;
 
             StringBuilder _outputString = new StringBuilder();
-            int? _counter = 1;
+            int? _counter = 0;
             char? _currentChar = inputString[0];
 
             for (int _index = 0; _index < inputString.Length; _index++)
